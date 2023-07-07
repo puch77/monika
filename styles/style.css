@@ -215,16 +215,13 @@ footer p {
   color: #333;
 }
 
-.projects .col {
+.projectss .col {
 font-family: 'Raleway', sans-serif;
 text-align:center;
 vertical-align: top;
 display: inline-block;
 width: 250px;
 padding: 20px 20px;
-/*background-color: rgba(245, 245, 245, 0.7);
-border-radius: 25px;
-border: 2px rgba(245, 245, 245, 0.7) solid;*/
 margin: 10px 10px;
 color: #333;
 }
@@ -232,8 +229,19 @@ color: #333;
   border-radius: 15px;
   border: 2px rgba(245, 245, 245, 0.7) solid;
   margin: 10px 10px;
+  max-width: 600px;
+  display: inline-table;
 }
-
+.projects .col {
+  font-family: 'Raleway', sans-serif;
+  text-align:center;
+  vertical-align: top;
+  display: inline-block;
+  width: 220px;
+  padding: 20px 20px;
+  margin: 10px 10px;
+  color: #333;
+}
 .projects h2 {
   font-weight: 600;
   font-size: 23px;
