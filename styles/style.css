@@ -20,9 +20,9 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .header {
+  /*.header {
     flex-direction: column;
-  }
+  }*/
   .about .me {
     font-size: 12px;
   }
