@@ -72,6 +72,9 @@ li a:hover {
   .header {
     flex-direction: column;
   }
+  .about .me {
+    font-size: 14px;
+  }
 }
 
 /* main */
@@ -177,7 +180,7 @@ footer p {
 }
 .about .me {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1.5em;
   padding: 10px 10px;
   margin-bottom: 10px;
@@ -215,16 +218,6 @@ footer p {
   color: #333;
 }
 
-.projectss .col {
-font-family: 'Raleway', sans-serif;
-text-align:center;
-vertical-align: top;
-display: inline-block;
-width: 250px;
-padding: 20px 20px;
-margin: 10px 10px;
-color: #333;
-}
 .projects .container .bothProjects {
   border-radius: 15px;
   border: 2px rgba(245, 245, 245, 0.7) solid;
