@@ -5,11 +5,12 @@
   "source": "index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build",
+    "build-css": "node-sass ./src/styles.scss -o ./public/css"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cobiwave/simplefolio"
+    "url": "git+https://github.com/cobiwave/simplefolio.git"
   },
   "keywords": [],
   "author": "Monika Puchalska",
@@ -20,14 +21,17 @@
   "homepage": "https://github.com/cobiwave/simplefolio#readme",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.12.0",
+    "node-sass": "^9.0.0",
     "parcel": "^2.8.2",
     "prettier": "^2.8.1"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.6",
-    "bootstrap": "^5.2.3",
+    "bootstrap": "^5.3.3",
     "jquery": "^3.6.3",
     "popper.js": "^1.16.1",
     "vanilla-tilt": "^1.8.0"
-  }
+  },
+  "description": "⚡️ Modern UI Design + Reveal Animations\\\r ⚡️ One Page Layout\\\r ⚡️ Styled with Bootstrap v4.3 + Custom SCSS\\\r ⚡️ Fully Responsive\\\r ⚡️ Valid HTML5 & CSS3\\\r ⚡️ Optimized with Parcel\\\r ⚡️ Well organized documentation",
+  "main": "index.js"
 }
