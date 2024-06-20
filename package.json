@@ -2,7 +2,7 @@
   "name": "simplefolio",
   "version": "1.0.1",
   "private": "true",
-  "source": "src/index.html",
+  "source": "index.html",
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
